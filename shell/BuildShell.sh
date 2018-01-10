@@ -129,8 +129,8 @@ if [ $number == 1 ];then
 #验证并上传到App Store
 # 将-u 后面的XXX替换成自己的AppleID的账号，-p后面的XXX替换成自己的密码
 altoolPath="/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesSoftwareService.framework/Versions/A/Support/altool"
-"$altoolPath" --validate-app -f ${exportIpaPath}/${scheme_name}.ipa -u liulanlan@liwai.com -p Liwai2016 -t ios --output-format xml
-"$altoolPath" --upload-app -f ${exportIpaPath}/${scheme_name}.ipa -u  liulanlan@liwai.com -p Liwai2016 -t ios --output-format xml
+"$altoolPath" --validate-app -f ${exportIpaPath}/${scheme_name}.ipa -u XXX -p XXX -t ios --output-format xml
+"$altoolPath" --upload-app -f ${exportIpaPath}/${scheme_name}.ipa -u  XXX -p XXX -t ios --output-format xml
 else
 
 #上传到Fir
